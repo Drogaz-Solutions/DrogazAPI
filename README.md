@@ -5,7 +5,7 @@ This project requires: [Composer](https://getcomposer.org/), [PHP](https://www.p
 
 I also strongly advice using [Postman](https://www.postman.com/) for testing the API.
 
-# Setup - This API is currently not functional.
+# Setup - This API is currently still in development
 
 
 1. Clone the repository & move it into your server.
