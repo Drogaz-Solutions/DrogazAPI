@@ -1,9 +1,12 @@
 # DrogazAPI
 Hypixel Skyblock API made by Drogaz#6521, feel free to share improvements.
 
+This project requires: [Composer](https://getcomposer.org/), [PHP](https://www.php.net/) 7.4 a Web & SQL Server.
+
+I also strongly advice using [Postman](https://www.postman.com/) for testing the API.
+
 # Setup
 
-This project requires: composer, PHP 7.4 a Web & SQL Server.
 
 1. Clone the repository & move it into your server.
 
