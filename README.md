@@ -1,5 +1,5 @@
 # DrogazAPI
-Hypixel Skyblock API
+Hypixel Skyblock API made by Drogaz#6521, feel free to share improvements.
 
 # Setup
 
