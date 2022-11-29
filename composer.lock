@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b56bfb5d21eaae286e532c3ed2f8941",
+    "content-hash": "0ac70af296dcc094e49a12ad3e6980f3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -61,6 +61,50 @@
                 "source": "https://github.com/asm89/stack-cors/tree/v2.1.1"
             },
             "time": "2022-01-18T09:12:03+00:00"
+        },
+        {
+            "name": "aternos/nbt",
+            "version": "v1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aternosorg/php-nbt.git",
+                "reference": "65eabcf7a3b6007326759b37b3b2bbe03ee5a202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aternosorg/php-nbt/zipball/65eabcf7a3b6007326759b37b3b2bbe03ee5a202",
+                "reference": "65eabcf7a3b6007326759b37b3b2bbe03ee5a202",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-zlib": "*",
+                "php": "^7.4 || ^8.0",
+                "php-64bit": "*",
+                "pocketmine/binaryutils": "^0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aternos\\Nbt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kurt Thiemann",
+                    "email": "kurt@aternos.org"
+                }
+            ],
+            "description": "PHP library to parse, modify, and create NBT objects",
+            "support": {
+                "issues": "https://github.com/aternosorg/php-nbt/issues",
+                "source": "https://github.com/aternosorg/php-nbt/tree/v1.4.2"
+            },
+            "time": "2022-05-04T16:09:26+00:00"
         },
         {
             "name": "brick/math",
@@ -2014,6 +2058,54 @@
             "time": "2022-09-12T23:36:20+00:00"
         },
         {
+            "name": "nicmart/tree",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicmart/Tree.git",
+                "reference": "e992740d9ee7975c3fc324ddaafaf63b21e17704"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicmart/Tree/zipball/e992740d9ee7975c3fc324ddaafaf63b21e17704",
+                "reference": "e992740d9ee7975c3fc324ddaafaf63b21e17704",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.19.0",
+                "ergebnis/license": "^1.1.0",
+                "ergebnis/php-cs-fixer-config": "^2.14.0",
+                "phpunit/phpunit": "^8.5.30",
+                "psalm/plugin-phpunit": "~0.17.0",
+                "vimeo/psalm": "^4.27.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tree\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolò Martini",
+                    "email": "nicmartnic@gmail.com"
+                }
+            ],
+            "description": "A basic but flexible php tree data structure and a fluent tree builder implementation.",
+            "support": {
+                "issues": "https://github.com/nicmart/Tree/issues",
+                "source": "https://github.com/nicmart/Tree/tree/0.4.0"
+            },
+            "time": "2022-10-04T14:33:50+00:00"
+        },
+        {
             "name": "nikic/php-parser",
             "version": "v4.15.2",
             "source": {
@@ -2208,6 +2300,48 @@
                 }
             ],
             "time": "2022-07-30T15:51:26+00:00"
+        },
+        {
+            "name": "pocketmine/binaryutils",
+            "version": "0.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/BinaryUtils.git",
+                "reference": "5ac7eea91afbad8dc498f5ce34ce6297d5e6ea9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/5ac7eea91afbad8dc498f5ce34ce6297d5e6ea9a",
+                "reference": "5ac7eea91afbad8dc498f5ce34ce6297d5e6ea9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "php-64bit": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "1.3.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1.0.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Classes and methods for conveniently handling binary data",
+            "support": {
+                "issues": "https://github.com/pmmp/BinaryUtils/issues",
+                "source": "https://github.com/pmmp/BinaryUtils/tree/0.2.4"
+            },
+            "time": "2022-01-12T18:06:33+00:00"
         },
         {
             "name": "psr/container",
@@ -2864,6 +2998,77 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "rickselby/nbt",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rickselby/NBT.git",
+                "reference": "df18718c177b70a835915fed937365b3b7730656"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rickselby/NBT/zipball/df18718c177b70a835915fed937365b3b7730656",
+                "reference": "df18718c177b70a835915fed937365b3b7730656",
+                "shasum": ""
+            },
+            "require": {
+                "nicmart/tree": "~0.2",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nbt\\": "src/",
+                    "Nbt\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Martin",
+                    "email": "frozenfire@thefrozenfire.com",
+                    "homepage": "https://github.com/TheFrozenFire",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James Lowe",
+                    "homepage": "https://github.com/jegol",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kevin Andrews",
+                    "email": "kevin@zvps.co.uk",
+                    "homepage": "https://github.com/Caffe1neAdd1ct",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Rick Selby",
+                    "email": "rick@selby-family.co.uk",
+                    "homepage": "https://github.com/rickselby",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Parser/Writer for the NBT file format",
+            "homepage": "https://github.com/rickselby/NBT",
+            "keywords": [
+                "NBT",
+                "binary",
+                "decode",
+                "encode"
+            ],
+            "support": {
+                "issues": "https://github.com/rickselby/NBT/issues",
+                "source": "https://github.com/rickselby/NBT/tree/4.0.1"
+            },
+            "time": "2020-12-15T07:25:23+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
